@@ -1,0 +1,30 @@
+{
+  "name": "leasing-journey-homelet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "pm2 start index.js --name homelet-service-api-dev",
+    "start:prod": "pm2 start index.js --name homelet-service-api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeartlyRegis/leasing-journey-homelet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeartlyRegis/leasing-journey-homelet/issues"
+  },
+  "homepage": "https://github.com/HeartlyRegis/leasing-journey-homelet#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
